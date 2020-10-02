@@ -12,7 +12,7 @@ Minikube: A tool for running Kubernetes locally.
 
 [Node](https://kubernetes.io/docs/concepts/architecture/nodes/): Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine.
 
-[Pod](https://kubernetes.io/docs/concepts/workloads/pods/): A Pod is a group of one or more containers, with shared storage/network resources,
+[Pod](https://kubernetes.io/docs/concepts/workloads/pods/): A Pod is a group of one or more containers, with shared storage/network resources. Since a pod can contain several containers, you can roughly compare this to "docker-compose".
 
 Volume: A directory containing data, accessible to the containers in a Pod.
 
