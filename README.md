@@ -6,6 +6,10 @@
 
 [Node](https://kubernetes.io/docs/concepts/architecture/nodes/): Kubernetes runs your workload by placing containers into Pods to run on Nodes. A node may be a virtual or physical machine.
 
+Helm: The package manager for Kubernetes
+
+Helm Chart: A package (like rpm/dpkg/msi)
+
 ## Minikube
 
 ```
@@ -34,9 +38,11 @@ kubectl describe pod POD-ID
 
 ## Helm
 
+
+
 ```
 
-# Central Repo for. It contains most well known tools
+# Central Repo. It contains most well known tools
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 
 # Read requirements.yaml, downloads dependencies and stores them in the "charts" directory.
