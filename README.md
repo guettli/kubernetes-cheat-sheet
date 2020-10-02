@@ -46,9 +46,7 @@ kubectl describe pod POD-ID
 ## Helm
 
 
-
 ```
-
 # Central Repo. It contains most well known tools
 helm repo add stable https://kubernetes-charts.storage.googleapis.com/
 
